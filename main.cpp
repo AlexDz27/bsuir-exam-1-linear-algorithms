@@ -13,7 +13,10 @@ int main() {
   double firstActionResult = pow(2, -x);
 
   /*** Second action ***/
+  double secondTerm = pow(fabs(y), 1.0 / 4);
+  double secondActionResult = sqrt(x + secondTerm);
 
+  /*** Third action ***/
 
   return 0;
 }
