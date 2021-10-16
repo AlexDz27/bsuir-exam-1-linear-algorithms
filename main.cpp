@@ -19,6 +19,10 @@ int main() {
   /*** Third action ***/
   double EulersNumberExponent = (x - 1) / (sin(z));
   double thirdActionResult = pow(exp(EulersNumberExponent), 1.0 / 3);
+  
+  double result = firstActionResult * secondActionResult * thirdActionResult;
+  
+  cout << result;
 
   return 0;
 }
