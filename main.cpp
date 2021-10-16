@@ -9,6 +9,10 @@ int main() {
   double y = -1625;
   double z = 0.512;
 
+  /*** First action **/
+  double firstActionResult = pow(2, -x);
+
+  /*** Second action ***/
 
 
   return 0;
