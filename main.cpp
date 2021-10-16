@@ -18,7 +18,20 @@ int main() {
     return 1;
   }
 
-  cout << "Going further" << endl;
+  /*** First action **/
+  double firstActionResult = pow(2, -x);
+
+  /*** Second action ***/
+  double secondTerm = pow(fabs(y), 1.0 / 4);
+  double secondActionResult = sqrt(x + secondTerm);
+
+  /*** Third action ***/
+  double EulersNumberExponent = (x - 1) / (sin(z));
+  double thirdActionResult = pow(exp(EulersNumberExponent), 1.0 / 3);
+
+  result = firstActionResult * secondActionResult * thirdActionResult;
+
+  cout << result; // 1.2794
 
   return 0;
 }
