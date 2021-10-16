@@ -17,6 +17,8 @@ int main() {
   double secondActionResult = sqrt(x + secondTerm);
 
   /*** Third action ***/
+  double EulersNumberExponent = (x - 1) / (sin(z));
+  double thirdActionResult = pow(exp(EulersNumberExponent), 1.0 / 3);
 
   return 0;
 }
